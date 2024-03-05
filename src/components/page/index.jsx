@@ -47,7 +47,7 @@ export default function LandingPage() {
               Delectus recusandae numquam vero.
             </p>
           </span>
-          <hr className="w-[750px] mt-24 flex justify-between" />
+          <hr className="w-[890px] mt-24 flex justify-between" />
           <div className="mt-10 pl-10">
             <span>September, 2016 – May, 2017</span>
             <span className="pl-28 text-2xl text-orange-400 font-bold">
@@ -63,7 +63,7 @@ export default function LandingPage() {
               Jakarta, Indonesia
             </p>
           </div>
-          <hr className="w-[750px] mt-24 flex justify-between" />
+          <hr className="w-[890px] mt-24 flex justify-between" />
           <div className="mt-10 pl-10">
             <span>May, 2018 – Jun, 2019</span>
             <span className="pl-40 text-2xl text-orange-400 font-bold">
@@ -79,7 +79,7 @@ export default function LandingPage() {
               Jakarta, Indonesia
             </p>
           </div>
-          <hr className="w-[750px] mt-24 flex justify-between" />
+          <hr className="w-[890px] mt-24 flex justify-between" />
           <div className="mt-10 pl-10">
             <span>Jun, 2019 – Current</span>
             <span className="pl-44 text-2xl ml-1 text-orange-400 font-bold">
@@ -108,7 +108,7 @@ export default function LandingPage() {
               doloribus, culpa adipisci id nisi magni impedit enim omnis
               suscipit, maxime repellat libero! Alias!
             </p>
-            <div className="gap-4 flex bg-fixed pt-16 ml-8">
+            <div className="gap-4 flex bg-fixed pt-16 ">
               <div className="bg-white rounded-lg">
                 <img
                   className="h-[300px] w-[350px]"
@@ -140,7 +140,7 @@ export default function LandingPage() {
                 </p>
               </div>
             </div>
-            <div className="gap-4 flex bg-fixed pt-5 ml-8">
+            <div className="gap-4 flex bg-fixed pt-5">
               <div className="bg-white rounded-lg">
                 <img
                   className="h-[300px] w-[350px]"
@@ -175,8 +175,8 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-b from-gray-400 to-black h-[300vh]">
-        <div className="pt-32 text-white ml-96 pl-10">
+      <div className="bg-gradient-to-b from-gray-400 to-black h-[290vh]">
+        <div className="pt-32 text-white ml-80 pl-20">
           <div>
             <h1 className="text-4xl font-sans font-bold tracking-wide">
               About Me
@@ -253,14 +253,14 @@ export default function LandingPage() {
             distinctio?
           </p>
         </div>
-        <div className="pt-10 pl-64 ml-80">
+        <div className="pt-10 pl-64 ml-40">
           <p className="text-white pb-5">Email </p>
           <input
-            className="w-[735px] text-xl bg-transparent border-b-2 text-white"
+            className="w-[700px] text-xl bg-transparent border-b-2 text-white"
             placeholder="Enter a valid email address"
           />
           <br />
-          <button className="text-white h-[50px] w-[735px] mt-5 rounded-lg text-2xl font-sans hover:-translate-y-1 bg-gradient-to-r from-blue-600 to-red-300 hover:scale-110 duration-500">
+          <button className="text-white h-[50px] w-[700px] mt-5 rounded-lg text-2xl font-sans hover:-translate-y-1 bg-gradient-to-r from-blue-600 to-red-300 hover:scale-110 duration-500">
             Submit
           </button>
         </div>
